@@ -10,10 +10,10 @@ class Autor(models.Model):
     description = models.TextField(blank = True, null = True)
 
     def __str__(self):
-        pass
+        return "" + self.name + " " + self.lastname
 
     class Meta:
-        db_table = 'Autors'
+        db_table = 'Authors'
         managed = True
         verbose_name = 'Autor'
-        verbose_name_plural = 'Autors'
+        verbose_name_plural = 'Authors'
