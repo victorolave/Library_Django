@@ -1,5 +1,5 @@
-# Library 📖
-_This is a example in development of a web application CRUD with the framework Django for a library.
+# Django Library 📖
+This is a example in development of a web application CRUD with the framework Django for a library.
 
 ## Construido con 🛠️
 
